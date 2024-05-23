@@ -1,4 +1,9 @@
-
+body{
+    margin: 0;
+    background-color: hsl(233, 47%, 7%);
+    color: white;
+    font-family: "Inter";
+}
 
 
 
