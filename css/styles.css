@@ -32,10 +32,26 @@ article section h1{
 article section h1 span{
     color: hsl(277, 64%, 61%);
 }
-section > p{
+section p{
     color: hsla(0, 0%, 100%, 0.75);
 }
 
+ul{
+    padding: 0;
+    list-style-type: none;;
+}
+ul li{
+    margin-bottom: 1.5rem;
+}
+ul h2{
+    margin: 0;
+    color: (0, 0%, 100%, 0.6);
+}
+ul p{
+    margin: 1rem 0 0 0;
+    font-size: .75rem;
+    font-family: "Lexend Deca";
+}
 
 
 .attribution { font-size: 11px; text-align: center; }
