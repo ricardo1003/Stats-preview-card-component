@@ -33,11 +33,20 @@ article>:nth-child(n){
     box-sizing: border-box;
 }
 article picture{
-    max-width: 585px;
+    /* height: 100%; */
+    /* width: 100%; */
     background: url("../images/image-header-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 585px;
+}
+article picture div{
+    height: 100%;
+    width: 100%;
+    background-color: hsl(277, 100%, 61%);
+    filter:opacity(50%);
+    -webkit-filter:opacity(50%);
 }
 article section{
     padding: 1.5rem;
